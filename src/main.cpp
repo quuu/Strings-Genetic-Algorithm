@@ -1,6 +1,7 @@
 #include <iostream>
-#include "population.h"
 #include <iomanip>
+#include "population.h"
+
 int main(){
 
   std::string target;
