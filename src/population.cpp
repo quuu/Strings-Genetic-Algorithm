@@ -94,16 +94,6 @@ std::string Population::getBest(){
   return population[index].getPhrase();
 }
 
-//accessor
-bool Population::finished(){
-  return done;
-}
-
-//accessor
-int Population::getGeneration(){
-  return generation;
-}
-
 //divides total fitness by the amount in population
 float Population::getAverageFitness(){
   float total =0;

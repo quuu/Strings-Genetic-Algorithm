@@ -15,11 +15,6 @@ DNA::DNA(int num){
   }
 }
 
-//accessor
-std::string DNA::getPhrase(){
-  return genes;
-}
-
 //calculates fitness by 
 //amount of matching characters to target / size of target
 void DNA::fitnessCalc(std::string target){

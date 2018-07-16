@@ -19,8 +19,8 @@ class Population{
     
     //ACCESSORS
     std::string getBest();
-    bool finished();
-    int getGeneration();
+    bool finished() { return done; }
+    int getGeneration() { return generation; }
     std::string allPhrases();
     
 
